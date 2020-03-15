@@ -2,44 +2,117 @@
 body{
   margin:0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', serif;
+  color: black;
+  font-weight: 800;
 }
 h1{
-  font-size: 50px;
+  font-weight: 400;
+  color: #66BFBF;
+  font-size: 562%;
   margin: 0 auto;
+
   font-family: 'Sacramento', cursive;
 }
 h2{
+  color: #66bfbf;
+  font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
+  margin-bottom: auto;
 }
-h3{font-family: 'Montserrat', serif;}
-
+h3{
+  color:#66bfbf;
+  font-weight: bolder;
+  font-family: 'Montserrat', serif;}
+  hr{
+    border: dotted #deddfa 6px;
+    border-bottom: none;
+    width: 3%;
+    border-width: 10px;
+  }
+  a{
+    color: #edffea;
+    margin: 10px;
+    text-decoration: none;
+  }
+  a:hover{
+    color:#66bfbf;
+  }
+.profile{
+margin: 0 auto 5% auto;
+}
+.profile-picture{
+  width: 15%;
+  margin: 100px auto 0 auto;
+}
 .top-container{
-  background-color: #a8e6cf;
+  background-color: #edffea;
   position: relative;
   padding-top: 100px;
-  height: 600px;
+  height: auto;
 }
 .middle-container{
-    background-color: #ffe3ed;
-  height:600px;
-  width: auto;
+height: 100%;
+background-color: #edffea;
+}
+.contact-me{
+  height:250px;
+line-height: 2;
 }
 .bottom-container{
-  background-color: #ededed;
-  height: 600px;
-  width: auto;
+  padding:20px;
+background-color: #0f4c75;
 }
-.top-cloud{
-position: absolute;
-width: 150px;
-right:280px;
-top:50px;
+.skills{
+  margin-top: 7%;
+}
+.skill-row{
+  width: 50%;
+  margin:4% auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill1{
+  width:25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+.skill2{
+  width:25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.kids-cartoon{
+position: relative;
+width: 100%;
+height: 70%;
+}
+.btn {
+  font-family: 'Montserrat', serif;
+  font-weight: bold;
+  color: #01010F !important;
+  font-size: 16px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 4px solid #40E0D0;
+  background: #40E0D0;
+}
+.btn:hover {
+  color: #071324 !important;
+  background: #52EBB3;
+}
+.footer-link{
 
 }
-.bottom-cloud{
-  width: 150px;
-  position: absolute;
-  left: 260px;
-  top: 240px;
+.copyright{
+  font-size: 15px;
+  margin-top: 5%;
+  color: white;
 }
